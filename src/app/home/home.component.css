@@ -1,0 +1,185 @@
+.main {
+  padding: 0 0 0 1rem;
+  min-height: 40rem;
+  gap: 4rem 0;
+}
+
+.main1 {
+  width: 38rem;
+  padding: 0 1.1875rem;
+  margin-inline: auto;
+}
+
+.main1 .main1sub1 .fast {
+  padding: 0;
+  margin: 0 0 0 -0.5rem;
+  font-size: 8.1875rem;
+  font-weight: 700;
+  color: #ea8223;
+  letter-spacing: -0.1875rem;
+  line-height: 11.375rem;
+}
+
+.main1 .main1sub1 .food {
+  line-height: 3.0625rem;
+  letter-spacing: 0rem;
+  color: black;
+  font-size: 3.375rem;
+  font-weight: 700;
+  padding: 0 1rem;
+  margin: -0.3125rem 0 0 0;
+}
+
+.main1 .main1sub2 {
+  font-size: 1.4375rem;
+  color: grey;
+}
+
+.main1 .main1sub3 {
+  min-height: 9.875rem;
+  gap: 1.875rem;
+}
+
+.main1 .main1sub3 > button {
+  color: white;
+  background: #2f2f2f;
+  width: 12.375rem;
+  height: 4.375rem;
+  font-size: 1.3125rem;
+  font-weight: 500;
+}
+
+.main1 .main1sub3 > div {
+  font-size: 1.3125rem;
+  font-weight: 600;
+}
+
+.main1 .main1sub3 > div button {
+  width: 4.375rem;
+  height: 4.375rem;
+  background: white;
+  margin: 0 0.625rem 0 0;
+}
+
+.main1 .main1sub3 > div button i {
+  font-size: 2rem;
+  padding: 0 0 0 0.2rem;
+}
+
+.main1 .main1sub4 {
+  padding: 0.8rem 0 0 0;
+  gap: 2.5rem;
+}
+
+.main1 .main1sub4 > button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1875rem;
+  font-weight: 600;
+  background: white;
+  width: 6.375rem;
+  padding: 0.625rem 0 0 0;
+}
+
+.main1 .main1sub4 > button > img {
+  width: 4.125rem;
+  padding: 0.375rem;
+  background: #f0e4b6;
+}
+
+.main1 .main1sub4 > button .option {
+  padding: 1.3125rem 0 1.625rem 0;
+}
+
+.main2 {
+  margin-left: auto;
+  width: 42rem;
+}
+
+.main2 img {
+  width: 100%;
+}
+
+@media (max-width: 1320px) {
+  .main {
+    padding: 0 1rem 0 1rem;
+  }
+  .main1 {
+    width: 37rem;
+  }
+
+  .main2 {
+    width: 37rem;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 1230px) {
+  .main {
+    padding: 0 1rem 0 1rem;
+  }
+  .main1 {
+    width: 32rem;
+  }
+
+  .main1 .main1sub1 .fast {
+    font-size: 7.5rem;
+  }
+
+  .main1 .main1sub1 .food {
+    font-size: 3rem;
+  }
+
+  .main2 {
+    width: 32rem;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 1070px) {
+  .main2 {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+  .main1 {
+    width: 90vw;
+  }
+
+  .main1 .main1sub1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main1 .main1sub1 .fast {
+    font-size: 6.5rem;
+    line-height: 7rem;
+    margin: 0rem;
+  }
+
+  .main1 .main1sub1 .food {
+    margin: 0rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .main1 .main1sub2 {
+    font-size: 1.125rem;
+    padding: 1rem 0;
+  }
+
+  .main1 .main1sub3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+  }
+
+  .main1 .main1sub4 {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 5rem;
+  }
+}
